@@ -13,10 +13,10 @@ const Contact = () => {
     e.preventDefault();
 
     emailjs.sendForm(
-      'service_v92p7e4',
-      'template_00zv3uf',
+      'service_d768qlr',
+      'template_0j2ix1r',
       form.current,
-      'gfoUvcjrblLSUAY5P'
+      'Qf4_rksDFKfsmS9U8'
     );
 
     e.target.reset();
@@ -33,7 +33,7 @@ const Contact = () => {
             <MdOutlineEmail className="contact-option-icon" />
             <h4>Email</h4>
             <h5>merayo.rafa@gmail.com</h5>
-            <a href="mailto:umarber94@gmail.com">Send a message</a>
+            <a href="mailto:merayo.rafa@gmail.com">Send a message</a>
           </article>
           <article className="contact-option">
             <AiFillLinkedin className="contact-option-icon" />
