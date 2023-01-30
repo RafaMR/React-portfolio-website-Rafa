@@ -46,11 +46,11 @@ const About = () => {
           </div>
 
           <p>
-            Hi, I’m Rafa, a Full-Stack Javascript developer with several years
-            of experience in Sales teams at tech companies making my way to find
-            my first experience and join a team as a developer. I possess a deep
-            knowledge of web development technologies such as JavaScript (ES6),
-            React, HTML 5, CSS, NodeJS, ExpressJS, Mongo Db and Axios.
+            Full Stack Developer with several years of experience in sales teams
+            at online tech companies looking forward to changing careers. I
+            possess a deep knowledge of web development technologies such as
+            JavaScript (ES6), React, HTML 5, CSS, NodeJS, ExpressJS, Mongo Db
+            and Axios.
           </p>
 
           <a href="#contact" className="btn btn-primary">
