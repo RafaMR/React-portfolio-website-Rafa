@@ -1,6 +1,6 @@
 import React from 'react';
 import './about.css';
-import ME from '../../assests/image Rafa.png';
+import ME from '../../assests/Foto Perfil GRIS-PhotoRoom.png-PhotoRoom.png';
 import { FaAward } from 'react-icons/fa';
 import { FiUsers } from 'react-icons/fi';
 import { VscFolderLibrary } from 'react-icons/vsc';
@@ -24,8 +24,8 @@ const About = () => {
               <FaAward className="about-icon" />
               <h5>Experience</h5>
               <small>
-                I am a Sales Manager making my way to become Full Stack
-                Developer.
+                I am a Full Stack developer witha background in Sales at tech
+                companies
               </small>
             </article>
             <article className="about-card">
