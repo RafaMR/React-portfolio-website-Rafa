@@ -1,32 +1,32 @@
 import React from 'react';
 import './portfolio.css';
-// import IronZombie from '../../assets/Ironzombie.png';
-// import GuessWhoWon from '../../assets/Guesswhowon.png';
-// import IronPump from '../../assets/Ironpump.png';
+import ElonMars from '../../assests/Elon.jpg';
+// import Meetech from '../../assests/Meetech.jpg';
+import IronPump from '../../assests/ironpump.jpg';
 
-// const data = [
-//   {
-//     id: 1,
-//     image: IronZombie,
-//     title: 'IronZombie',
-//     github: 'https://github.com/UmarBer/Module-1-game-project',
-//     demo: 'https://ironzombies.netlify.app'
-//   },
-//   {
-//     id: 2,
-//     image: GuessWhoWon,
-//     title: 'Guess Who Won',
-//     github: 'https://github.com/UmarBer/whowon',
-//     demo: 'https://guesswhowon.herokuapp.com/'
-//   },
-//   {
-//     id: 3,
-//     image: IronPump,
-//     title: 'IronPump',
-//     github: 'https://github.com/UmarBer/Project-3---IronPump',
-//     demo: 'https://ironpump.netlify.app'
-//   }
-// ];
+const data = [
+  {
+    id: 1,
+    image: ElonMars,
+    title: 'Elon-Mars',
+    github: 'https://github.com/RafaMR/Project-1-Videogame-Elon-Mars',
+    demo: 'https://elon-mars.netlify.app/'
+  },
+  // {
+  //   id: 2,
+  //   image: Meetech,
+  //   title: 'Meetech',
+  //   github: 'https://github.com/RafaMR/Project-2-Meetech.com',
+  //   demo: 'https://meetech-app.herokuapp.com/'
+  // },
+  {
+    id: 3,
+    image: IronPump,
+    title: 'IronPump',
+    github: 'https://github.com/RafaMR/Project-3-IronPump',
+    demo: 'https://ironpump.netlify.app'
+  }
+];
 
 const Portfolio = () => {
   return (

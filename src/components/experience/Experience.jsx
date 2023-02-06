@@ -4,9 +4,11 @@ import { BsFillPatchCheckFill } from 'react-icons/bs';
 
 const Experience = () => {
   return (
-    <div>
-      <h2>My Stack</h2>
+    <section>
       <br></br>
+      <br></br>
+      <h2>My Stack</h2>
+
       <div className="container experience-container">
         <div className="experience-frontend">
           <h3>Frontend Development</h3>
@@ -77,7 +79,7 @@ const Experience = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

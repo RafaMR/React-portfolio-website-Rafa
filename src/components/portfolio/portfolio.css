@@ -1,7 +1,9 @@
 .portfolio-container {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 2.5rem;
+  display: flex;
+  /* grid-template-columns: repeat(3, 1fr); */
+  gap: 3rem;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .portfolio-item {
@@ -20,10 +22,28 @@
 .portfolio-item-image {
   border-radius: 1.5rem;
   overflow: hidden;
+  object-fit: cover;
 }
 
 .portfolio-item-cta {
   display: flex;
   gap: 1rem;
   margin-bottom: 1rem;
+}
+
+/*  ----- Media Queries (Medium Devices) ----- */
+
+@media screen and (max-width: 1024px) {
+  .portfolio-container {
+    grid-template-columns: 1fr 1fr;
+    gap: 1.2rem;
+  }
+}
+
+/*  ----- Media Queries (Small Devices) ----- */
+@media screen and (max-width: 600px) {
+  .portfolio-container {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
 }
